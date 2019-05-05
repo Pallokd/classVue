@@ -7,14 +7,14 @@
     </mt-swipe>
     <ul class="mui-table-view mui-grid-view mui-grid-9">
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-        <a href="#">
-          <img src="../images/menu1.png">
-          <div class="mui-media-body">Home</div>
-        </a>
+        <router-link to="/home/newslist">
+          <img src="../../images/menu1.png">
+          <div class="mui-media-body">news</div>
+        </router-link>
       </li>
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
         <a href="#">
-          <img src="../images/menu2.png">
+          <img src="../../images/menu2.png">
           <span class="mui-badge">5</span>
 
           <div class="mui-media-body">Email</div>
@@ -22,25 +22,25 @@
       </li>
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
         <a href="#">
-          <img src="../images/menu3.png">
+          <img src="../../images/menu3.png">
           <div class="mui-media-body">Chat</div>
         </a>
       </li>
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
         <a href="#">
-          <img src="../images/menu4.png">
+          <img src="../../images/menu4.png">
           <div class="mui-media-body">location</div>
         </a>
       </li>
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
         <a href="#">
-          <img src="../images/menu5.png">
+          <img src="../../images/menu5.png">
           <div class="mui-media-body">Search</div>
         </a>
       </li>
       <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
         <a href="#">
-          <img src="../images/menu6.png">
+          <img src="../../images/menu6.png">
           <div class="mui-media-body">Phone</div>
         </a>
       </li>

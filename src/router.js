@@ -1,9 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import home from "./coms/home.vue";
-import search from "./coms/search.vue";
-import shopcar from "./coms/shopcar.vue";
-import vip from "./coms/vip.vue";
+import home from "./coms/tabbar/home.vue";
+import search from "./coms/tabbar/search.vue";
+import shopcar from "./coms/tabbar/shopcar.vue";
+import vip from "./coms/tabbar/vip.vue";
+import newslist from "./coms/home/newlist.vue"
 Vue.use(VueRouter);
 var router = new VueRouter({
     routes: [{
@@ -24,6 +25,10 @@ var router = new VueRouter({
         {
             path: "/search",
             component: search
+        },
+        {
+            path: '/home/newslist',
+            component: newslist
         }
     ],
     linkActiveClass: "mui-active"
